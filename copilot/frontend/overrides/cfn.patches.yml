@@ -1,0 +1,6 @@
+- op: remove
+  path: /Resources/DiscoveryService
+- op: remove
+  path: /Resources/Service/Properties/ServiceRegistries
+- op: remove
+  path: /Outputs/DiscoveryServiceARN

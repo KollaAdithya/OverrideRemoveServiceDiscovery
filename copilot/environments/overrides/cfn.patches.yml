@@ -1,0 +1,4 @@
+- op: remove
+  path: /Resources/ServiceDiscoveryNamespace
+- op: remove
+  path: /Outputs/ServiceDiscoveryNamespaceID
