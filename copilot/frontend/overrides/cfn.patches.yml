@@ -4,3 +4,9 @@
   path: /Resources/Service/Properties/ServiceRegistries
 - op: remove
   path: /Outputs/DiscoveryServiceARN
+- op: replace
+  path: /Resources/Service/Properties/ServiceConnectConfiguration/Namespace
+  value: mynamespace
+- op: replace
+  path: /Resources/TaskDefinition/Properties/ContainerDefinitions/0/Environment/1/Value
+  value: mynamespace
